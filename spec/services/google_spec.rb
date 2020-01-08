@@ -5,6 +5,6 @@ RSpec.describe 'google geocoding api service' do
         location = 'Denver, CO'
         service = GoogleService.new(location)
 
-        expect(service).to be_an_instance_of(Google)
+        expect(service).to be_an_instance_of(GoogleService)
     end 
 end 
